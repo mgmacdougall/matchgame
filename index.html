@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Three In A Row</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-container">
+        <li class="nav-item"><a href="#rules">Game Rules</a></li>
+        <li class="nav-item"><a href="#game">Game</a></li>
+        <li class="nav-item"><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Three In a Row</h1>
+    </header>
+    <main>
+      <section id="rules">
+        <h2>Game Rules</h2>
+        <p>The goal of the game is to click on the square to get three of the same images in three tries.
+        </p>
+      </section>
+
+      <section id="game">
+        <div class="container column-1">
+          <div id="score">Current Score: <span id="current-score">0</span></div>
+        </div>
+      </section>
+
+      <section>
+        <div id="results"><span></span></div>
+      </section>
+      
+      <section>
+        <div id="game-container" class="container">
+          <div id="img1" class="img-container"></div>
+          <div id="img2" class="img-container"></div>
+          <div id="img3" class="img-container"></div>
+        </div>
+      </section>
+
+      <section id="restart-game" class="container-col"><div id="game-message"></div></section>
+
+      <footer>&copy Big Game Company 2022</footer>
+    </main>
+  </body>
+</html>

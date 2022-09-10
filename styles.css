@@ -1,0 +1,91 @@
+header{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+}
+
+.nav-container{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.nav-item{
+  list-style-type: none;
+}
+
+.nav-item>a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.container-col{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container>div{
+  flex-direction: row;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.img-container{
+  height:15rem;
+  width: 15rem;
+  border: 0.25rem solid black;
+  margin: 1rem;
+  background-color: black;
+}
+
+
+.container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  visibility: hidden;
+}
+
+button{
+  width: 10rem;
+  height: 5rem;
+}
+
+
+/* Contact Page css */
+/* #contact{
+  text-align: center;
+} */
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+input, label, textarea, button{
+  margin:0.5rem;
+}
+
+#contact button{
+  width: auto;
+  height: auto;
+}
+/* form input{
+
+} */
